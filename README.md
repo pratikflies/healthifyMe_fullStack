@@ -62,7 +62,7 @@ MAPs user's location
 
 ADDING A WORKOUT
 
-![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/462d61cc-07ad-4747-9c42-75a36e8341c5)
+![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/46f73c61-9f50-4c07-9252-c8133f182d68)
 
 MAP (using Weatherbit API and reverse geocoding via leaflet API for temperature and location respectively)
 
