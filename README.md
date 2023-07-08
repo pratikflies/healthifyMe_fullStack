@@ -14,7 +14,7 @@ The app seamlessly integrates with browser APIs, enabling the retrieval of the c
 
 To create dynamic and responsive front-end interfaces, I have employed EJS as a dynamic templating engine supported by Node.js, HTML, CSS, and JavaScript. Express is used for efficient routing of incoming requests and parsing request bodies. The JavaScript code has been written in an object-oriented manner, following best practices to ensure maintainability and extensibility. By utilizing object-oriented programming principles, the code structure promotes modularity and reusability, making it easier to add new features or make modifications in the future.
 
-For data storage, the app utilizes MongoDB, a scalable and flexible NoSQL database, ensuring efficient management of user profiles, workouts, sessions and associated data.
+For data storage, the app utilizes MongoDB, a scalable and flexible NoSQL database. To facilitate seamless access and efficient management of user profiles, workouts, sessions, and associated data, I have leveraged the power of Mongoose ODM for seamless integration with MongoDB.
 
 In conclusion, the fitness tracking app I have developed offers a comprehensive set of features designed to enhance the user's fitness journey. The app leverages various technologies, APIs, and libraries to provide a secure, dynamic, and personalized experience. By utilizing interactive maps, charts, and badges, the app motivates users to stay active and achieve their fitness goals.
 
