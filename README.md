@@ -10,9 +10,9 @@ To enable personalized experiences, the app allows users to edit and delete thei
 
 The app features a comprehensive dashboard that provides users with real-time tracking of their current goals, past workouts, upcoming workouts, and progress. Users are awarded badges based on their achievements, motivating them to stay active and reach their fitness milestones. To visualize data effectively, I have utilized the Chart.js library to create visually appealing charts.
 
-The app seamlessly integrates with browser APIs, enabling the retrieval of the current temperature through the Weatherbit API. Additionally, I have implemented reverse geocoding using the Leaflet API to provide users with their current address and workout locations based on their coordinates.
+The app seamlessly integrates with browser APIs, enabling the retrieval of the current temperature through the Weatherbit API. Additionally, I have implemented reverse geocoding using the Leaflet API to provide users with their current addresses and workout locations based on their coordinates.
 
-To create dynamic and responsive front-end interfaces, I have employed EJS as a dynamic templating engine supported by Node.js, HTML, CSS, and JavaScript. Express is used for efficient routing of incoming requests and parsing request bodies.
+To create dynamic and responsive front-end interfaces, I have employed EJS as a dynamic templating engine supported by Node.js, HTML, CSS, and JavaScript. Express is used for efficient routing of incoming requests and parsing request bodies. The JavaScript code has been written in an object-oriented manner, following best practices to ensure maintainability and extensibility. By utilizing object-oriented programming principles, the code structure promotes modularity and reusability, making it easier to add new features or make modifications in the future.
 
 For data storage, the app utilizes MongoDB, a scalable and flexible NoSQL database, ensuring efficient management of user profiles, workouts, and associated data. Users have the ability to edit or delete their workouts as needed.
 
