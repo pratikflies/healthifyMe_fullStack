@@ -4,7 +4,7 @@ Summary of Fitness Tracking App:
 
 I have developed a comprehensive fitness tracking app that offers users a wide range of features to enhance their fitness journey. The app incorporates various technologies and APIs to provide a seamless user experience.
 
-The app includes a user-friendly homepage where users can easily navigate through the different sections. To ensure a secure environment, I have implemented a robust signup and login system with input validation using Express Validator. Additionally, for protection against cross-site request forgery (CSRF), the app employs CSRF tokens.
+The app includes a user-friendly homepage where users can easily navigate through the different sections. To ensure a secure environment, I have implemented a robust signup and login system with input validation using Express Validator and I'm sending verification/confirmation mails using Nodemailer. Additionally, for protection against cross-site request forgery (CSRF), the app employs CSRF tokens.
 
 To enable personalized experiences, the app allows users to edit and delete their profiles. User logins are managed through sessions and cookies, ensuring seamless access to their data. The app leverages the Leaflet library to render an interactive map where users can map their workouts, incorporating different emojis to represent various activities such as running, cycling, and swimming.
 
