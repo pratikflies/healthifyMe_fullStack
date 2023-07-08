@@ -6,7 +6,7 @@ I have developed a comprehensive fitness tracking app that offers users a wide r
 
 The app includes a user-friendly homepage where users can easily navigate through the different sections. To ensure a secure environment, I have implemented a robust signup and login system with input validation using Express Validator and I'm sending verification/confirmation mails using Nodemailer. Additionally, for protection against cross-site request forgery (CSRF), the app employs CSRF tokens.
 
-To enable personalized experiences, the app allows users to edit and delete their profiles. User logins are managed through sessions and cookies, ensuring seamless access to their data. The app leverages the Leaflet library to render an interactive map where users can map their workouts, incorporating different emojis to represent various activities such as running, cycling, and swimming.
+To enable personalized experiences, the app allows users to edit and delete their profiles. User logins are managed through sessions and cookies, ensuring seamless access to their data. The app leverages the Leaflet library to render an interactive map where users can map their workouts, incorporating different icons to represent various activities such as running, cycling, and swimming.
 
 The app features a comprehensive dashboard that provides users with real-time tracking of their current goals, past workouts, upcoming workouts, and progress. Users are awarded badges based on their achievements, motivating them to stay active and reach their fitness milestones. To visualize data effectively, I have utilized the Chart.js library to create visually appealing charts.
 
