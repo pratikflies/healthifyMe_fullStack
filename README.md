@@ -68,6 +68,10 @@ MAP (using Weatherbit API and reverse geocoding via leaflet API for temperature 
 
 ![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/8292d9ed-7183-40e2-92f3-fe3260005d15)
 
+SHORTEST PATH BETWEEN USER AND WORKOUT UPON CLICK (using leaflet-routing-machine)
+
+![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/ffce685e-5187-4980-a3af-4dd72f8488a3)
+
 SORT OPTIONS
 
 ![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/18f1f350-89b9-49a1-bfc0-47dfea4a42e1)
@@ -79,6 +83,12 @@ FILTER MENU
 USER RESET 
 
 ![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/d4b70a05-697a-4e46-bfda-54bd5e8c0b53)
+
+GALLERY
+
+![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/38d865f8-e016-45cb-beaf-401769a20464)
+
+![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/d9f3f338-bb41-4653-8842-e18e81b027ce)
 
 STORAGE (using MongoDB as a database to store documents in various collections)
 
