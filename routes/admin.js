@@ -1,6 +1,6 @@
 const path = require("path");
 const express = require("express");
-
+const { check, body } = require("express-validator");
 const adminController = require("../controller/admin");
 const isAuth = require("../middleware/is-auth");
 
@@ -16,5 +16,12 @@ router.post("/save", isAuth, adminController.saveWorkout);
 router.post("/delete", isAuth, adminController.deleteWorkout);
 router.delete("/reset", isAuth, adminController.resetUser);
 router.post("/delete-profile", isAuth, adminController.deleteProfile);
+router.get("/gallery", isAuth, adminController.getGallery);
+router.post(
+  "/add-image",
+  isAuth,
+  body("story").isLength({ min: 5, max: 50 }),
+  adminController.addImage
+);
 
 module.exports = router;

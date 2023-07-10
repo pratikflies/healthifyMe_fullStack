@@ -1,5 +1,9 @@
+const mongoose = require("mongoose");
 const Workout = require("../models/workout");
 const User = require("../models/user");
+const Image = require("../models/image");
+const fileHelper = require("../util/file");
+const { validationResult } = require("express-validator");
 
 exports.getUserDetails = (req, res, next) => {
   return res.render("authentication/userDetailsForm.ejs", {
@@ -249,5 +253,72 @@ exports.deleteProfile = (req, res, next) => {
     })
     .catch((error) => {
       console.log("Error deleting user:", error);
+    });
+};
+
+exports.getGallery = (req, res, next) => {
+  Image.find()
+    .then((images) => {
+      res.render("gallery/gallery", {
+        images: images,
+        story: "",
+        errorMessage: "",
+      });
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
+
+exports.addImage = (req, res, next) => {
+  const image = req.file;
+  const story = req.body.story;
+
+  if (!image) {
+    return Image.find()
+      .then((images) => {
+        return res.status(422).render("gallery/gallery", {
+          images: images,
+          story: story,
+          errorMessage: "Attached file is not an image",
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+
+  const imageUrl = image.path;
+
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.log(errors);
+    return Image.find()
+      .then((images) => {
+        return res.status(422).render("gallery/gallery", {
+          images: images,
+          story: story,
+          errorMessage:
+            "Story must not be less than 5 characters or more than 100 characters!",
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+
+  const img = new Image({
+    imageUrl: imageUrl,
+    story: story,
+    userId: req.user._id,
+  });
+  img
+    .save()
+    .then((result) => {
+      console.log("Story added!");
+      res.redirect("/admin/gallery");
+    })
+    .catch((err) => {
+      console.log(err);
     });
 };
