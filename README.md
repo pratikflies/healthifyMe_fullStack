@@ -52,7 +52,7 @@ RESET-PASSWORD (advanced authentication & input validation)
 
 ![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/85ed06a8-3559-43f6-9790-e6f048b4c89e)
 
-DASHBOARD (using Chart.js for pie chart and bar chart, dynamically upgrading badge on user's progress ratio)
+DASHBOARD (using Chart.js for pie chart and bar chart, dynamically upgrading badge based on user's progress ratio)
 
 ![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/023b5640-644b-4738-9d7b-4a9c97006789)
 
