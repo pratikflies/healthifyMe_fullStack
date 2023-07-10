@@ -84,7 +84,7 @@ USER RESET
 
 ![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/d4b70a05-697a-4e46-bfda-54bd5e8c0b53)
 
-GALLERY
+GALLERY (uploading images using multer)
 
 ![image](https://github.com/pratikflies/healthifyMe_fullStack/assets/76919061/38d865f8-e016-45cb-beaf-401769a20464)
 
